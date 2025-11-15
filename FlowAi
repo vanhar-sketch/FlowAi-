@@ -1,0 +1,95 @@
+‎<!DOCTYPE html><html lang="en">
+‎<head>
+‎  <meta charset="UTF-8" />
+‎  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+‎  <title>SwiftBot Solution - AI Chatbot Agency</title>
+‎  <style>
+‎    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f7fa; }
+‎    header { background: linear-gradient(135deg, #0b132b, #1c2541); color: white; padding: 80px 20px; text-align: center; animation: fadeIn 1.2s ease; }
+‎    header h1 { margin: 0; font-size: 50px; }
+‎    header p { font-size: 20px; opacity: 0.9; }@keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+‎
+‎.section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+‎.title { text-align: center; font-size: 32px; margin-bottom: 30px; font-weight: bold; }
+‎
+‎.services, .pricing, .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 25px; }
+‎
+‎.card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); transition: transform .3s; }
+‎.card:hover { transform: translateY(-10px); }
+‎.card h3 { margin-top: 0; color: #1c2541; }
+‎
+‎.contact { text-align: center; margin-top: 50px; }
+‎.btn { background: #1c2541; color: white; padding: 14px 30px; border-radius: 10px; text-decoration: none; font-size: 20px; }
+‎
+‎/* Portfolio Images */
+‎.portfolio img { width: 100%; border-radius: 12px; height: 200px; object-fit: cover; }
+‎
+‎/* Footer */
+‎footer { background: #0b132b; color: white; padding: 30px 20px; text-align: center; margin-top: 40px; }
+‎
+‎/* Contact Form */
+‎form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+‎input, textarea { padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
+‎button { background: #1c2541; color: white; padding: 14px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; }
+‎
+‎  </style>
+‎</head>
+‎<body><header>
+‎  <h1>SwiftBot Solution</h1>
+‎  <p>Smart Automation • AI Chatbots • Business Growth</p>
+‎</header><section class="section">
+‎  <div class="title">Our Services</div>
+‎  <div class="services">
+‎    <div class="card">
+‎      <h3>WhatsApp & Website Bots</h3>
+‎      <p>Automated order-taking, booking, FAQs, and instant customer support.</p>
+‎    </div>
+‎    <div class="card">
+‎      <h3>Business Automation</h3>
+‎      <p>Connect bots to Google Sheets, email, payment systems, CRMs.</p>
+‎    </div>
+‎    <div class="card">
+‎      <h3>AI Assistants</h3>
+‎      <p>Staff onboarding bots, HR bots, customer service assistants.</p>
+‎    </div>
+‎    <div class="card">
+‎      <h3>Custom Integrations</h3>
+‎      <p>Tailored AI workflows for supermarkets, hotels, real estate & more.</p>
+‎    </div>
+‎  </div>
+‎</section><section class="section">
+‎  <div class="title">Portfolio</div>
+‎  <div class="portfolio">
+‎    <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+‎    <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+‎    <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+‎  </div>
+‎</section><section class="section">
+‎  <div class="title">Pricing</div>
+‎  <div class="pricing">
+‎    <div class="card">
+‎      <h3>Starter Bot</h3>
+‎      <p>$50 - $80<br>Perfect for small businesses needing basic automation.</p>
+‎    </div>
+‎    <div class="card">
+‎      <h3>Business Bot</h3>
+‎      <p>$120 - $200<br>Order systems, bookings, CRM and data automation.</p>
+‎    </div>
+‎    <div class="card">
+‎      <h3>Premium Bot</h3>
+‎      <p>$250 - $500<br>Advanced workflows, analytics dashboards & full automation.</p>
+‎    </div>
+‎  </div>
+‎</section><section class="section contact">
+‎  <div class="title">Contact Us</div>
+‎  <p>Send us a message and we’ll get back to you within minutes.</p>  <form>
+‎    <input type="text" placeholder="Your Name" required />
+‎    <input type="email" placeholder="Your Email" required />
+‎    <textarea rows="5" placeholder="Your Message"></textarea>
+‎    <button type="submit">Send Message</button>
+‎  </form>  <br>
+‎  <a class="btn" href="https://wa.me/" target="_blank">Chat on WhatsApp</a>
+‎</section><footer>
+‎  © 2025 SwiftBot Solution — AI Chatbot & Automation Agency
+‎</footer></body>
+‎</html>
